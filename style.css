@@ -1,0 +1,102 @@
+.circular_image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    text-align: right;
+   
+    
+    /*for demo*/
+    display:inline-block;
+    vertical-align:middle;
+  }
+  .circular_image img{
+    width:100%;
+  }
+
+  /* Add this CSS to your existing styles */
+
+.left-content h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 24px; /* Adjust the font size as needed */
+    margin: 0; /* Remove default margin */
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.fanpage-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.profile-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.profile-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bio-section {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-shreya {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.achievements-section {
+    flex: 2;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+   
+    bottom: 0;
+    width: 100%;
+}
